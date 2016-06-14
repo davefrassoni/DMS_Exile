@@ -34,6 +34,6 @@ DMS_StaticMissionTypesArray = [];
 	missionNamespace setVariable
 	[
 		format["DMS_StaticMission_%1",_missionName],
-		compileFinal preprocessFileLineNumbers (format ["\x\addons\DMS\missions\static\%1.sqf",_missionName])
+		compileFinal preprocessFileLineNumbers (format ["\x\addons\a3_dms\missions\static\%1.sqf",_missionName])
 	];
 } forEach DMS_StaticMissionTypes;
